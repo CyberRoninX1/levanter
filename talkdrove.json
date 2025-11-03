@@ -1,0 +1,25 @@
+{
+  "bot-name": "Leventher‑MD",
+  "description": "Leventher‑MD — advanced WhatsApp automation for music & group bots",
+  "logo": "https://raw.githubusercontent.com/HyHamza/HyHamza/refs/heads/main/Images/XByte-logo.png",
+  "keywords": ["whatsapp‑bot", "songbot", "automation", "Leventher"],
+  "documentation-link": "https://github.com/CyberRoninX1/levanter",
+  "owner-verification": "charukamahesh172@gmail.com",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put your session id for WhatsApp connection",
+      "value": "",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Bot command prefix (e.g., ., !, @)",
+      "value": ".",
+      "required": true
+    },
+    "PREMIUM_USERS": {
+      "description": "List of premium user phone numbers (comma separated)",
+      "value": "94727270908",
+      "required": false
+    }
+  }
+}
